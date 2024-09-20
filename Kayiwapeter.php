@@ -15,12 +15,11 @@
     echo "The Home Address is " . $HomeAddress . ".\n"; // Print home address on a new line
     echo "Welcome!! Dear " . $TheName . "\n"; 
     echo "You are " . $Age . " Years Old Now."; // Print calculated age
-?>
-
-//we can also add userinput for instance 
-
-<?php 
-    // We can also add user input to allow different users to put in this info then it is displayed as output
+//The above code will get print name,DOB,adress and welcome
+statement and age.
+// But we can also add userinput for instance 
+// We can also add user input to allow different users to put in this info then it is displayed as output
+    
     $TheName = readline("Enter your name: "); 
     $HomeAddress = readline("Enter your home address: "); 
     $DateOfBirth = readline("Enter your date of birth (DD-MM-YYYY): ");
@@ -35,6 +34,7 @@
     echo "The Home Address is " . $HomeAddress . ".\n"; 
     echo "Welcome!! Dear " . $TheName . ".\n"; 
     echo "You are " . $Age . " years old now.\n"; 
-
-    // You can also use functions to come up with this; however, I am still understanding the concept, so the function example is not included.
+//The above will allow user input credentials then will print them on ter my inals,welcomes
+them by name and also tells them their age
+ // You can also use functions to come up with this; however, I am still understanding the concept, so the function example is not included.
 ?>
